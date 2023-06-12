@@ -1,0 +1,21 @@
+.container1{
+  color: aqua;
+  background-color: beige;
+  font-size: medium;
+  list-style-type: decimal;
+}
+
+.container2{
+    color: blueviolet;
+    background-color: burlywood;
+    font-size:larger
+}
+
+.container3{
+   color: brown;
+   background-color: aliceblue;
+   font-size: xx-large;
+}
+
+
+
