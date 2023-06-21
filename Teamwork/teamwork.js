@@ -161,13 +161,50 @@
 // } 
 
 
-const myCar = {
-  make : 'ford',
-  model : 'Mustang',
-  year : 1965,
-  color : 'Black'
-  }
-let carAge = myCar.year
-let today = new Date()
-let age = today.getFullYear() - carAge
-console.log(age)
+// const myCar = {
+//   make : 'ford',
+//   model : 'Mustang',
+//   year : 1965,
+//   color : 'Black'
+//   }
+// let carAge = myCar.year
+// let today = new Date()
+// let age = today.getFullYear() - carAge
+// console.log(age)
+
+
+// let x = 0;
+// async function test() {
+// x += await 2;
+// console.log(x);
+// }
+// test();
+// x += 1;
+// console.log(x);
+
+// console.log("I");
+// setTimeout(() => {
+// console.log("love");
+// }, 0);
+// console.log("Javascript!");
+
+// setTimeout(() => console.log("timeout"), 0);
+// Promise.resolve().then(() => console.log("promise"));
+
+// async function f() {
+//   let result = 'first!';
+//   let promise = new Promise((resolve, reject) => {
+//   setTimeout(() => resolve('done!'), 1000);
+//   });
+//   result = await promise;
+//   console.log(result);
+//   }
+//   f();
+  
+Promise.resolve('Success!')
+.then(data => {
+return data.toUpperCase()
+})
+.then(data => {
+console.log(data)
+})
